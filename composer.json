@@ -1,0 +1,247 @@
+{
+    "name": "drupal/recommended-project",
+    "description": "Project template for Drupal 9 projects with a relocated document root",
+    "type": "project",
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://www.drupal.org/project/drupal",
+    "support": {
+        "docs": "https://www.drupal.org/docs/user_guide/en/index.html",
+        "chat": "https://www.drupal.org/node/314178"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+            {
+          "type": "package",
+          "package": {
+            "name": "dinbror/blazy",
+            "version": "1.8.2",
+            "type": "drupal-library",
+            "extra": {
+              "installer-name": "blazy"
+            },
+            "source": {
+              "type": "git",
+              "url": "https://github.com/dinbror/blazy",
+              "reference": "1.8.2"
+            }
+          }
+        },
+        {
+        "type": "package",
+        "package": {
+            "name": "d3/d3",
+            "version": "v3.5.17",
+            "type": "drupal-library",
+            "source": {
+                "url": "https://github.com/d3/d3.git",
+                "type": "git",
+                "reference": "tags/v3.5.17"
+            }
+        }
+    },
+    {
+        "type": "package",
+        "package": {
+            "name": "highlightjs/highlightjs",
+            "version": "9.7.0",
+            "type": "drupal-library",
+            "source": {
+                "url": "https://github.com/highlightjs/highlight.js.git",
+                "type": "git",
+                "reference": "tags/9.7.0"
+            }
+        }
+    },
+    {
+        "type": "package",
+        "package": {
+          "name": "ckeditor/div",
+          "version": "4.10.1",
+          "type": "drupal-library",
+          "extra": {
+            "installer-name": "ckeditor/plugins/div"
+          },
+          "dist": {
+            "url": "https://download.ckeditor.com/div/releases/div_4.10.1.zip",
+            "type": "zip"
+          }
+        }
+      },
+      {
+        "type": "package",
+        "package": {
+            "name": "ckeditor/liststyle",
+            "version": "4.8.0",
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "ckeditor/plugins/liststyle"
+            },
+            "dist": {
+                "url": "https://download.ckeditor.com/liststyle/releases/liststyle_4.8.0.zip",
+                "type": "zip"
+            }
+        }
+    }
+    ],
+    "require": {
+        "ckeditor/div": "4.10.1",
+        "ckeditor/liststyle": "^4.8",
+        "composer/installers": "^1.9",
+        "cweagans/composer-patches": "^1.7",
+        "d3/d3": "^3.5",
+        "drupal/address": "^1.9",
+        "drupal/address_map_link": "^1.2",
+        "drupal/admin_toolbar": "^3.0",
+        "drupal/advanced_scroll_top": "1.x-dev",
+        "drupal/antibot": "^1.4",
+        "drupal/auto_entitylabel": "3.x-dev",
+        "drupal/autologout": "^1.3",
+        "drupal/back_to_top": "^2.0",
+        "drupal/backup_migrate": "^5.0",
+        "drupal/blazy": "^2.4",
+        "drupal/block_styles": "^2.0",
+        "drupal/block_visibility_groups": "1.x-dev",
+        "drupal/bootstrap": "^3.23",
+        "drupal/bootstrap_barrio": "^5.5",
+        "drupal/bootstrap_layouts": "^5.2",
+        "drupal/ckeditor_div_manager": "2.0",
+        "drupal/ckeditor_liststyle": "^1.4",
+        "drupal/conditional_fields": "^4.0@alpha",
+        "drupal/core-composer-scaffold": "^9.2",
+        "drupal/core-project-message": "^9.2",
+        "drupal/core-recommended": "^9.2",
+        "drupal/ctools": "^3.7",
+        "drupal/devel": "^4.1",
+        "drupal/ds": "^3.13",
+        "drupal/easy_breadcrumb": "^2.0",
+        "drupal/extlink": "^1.6",
+        "drupal/feeds": "^3.0@alpha",
+        "drupal/feeds_tamper": "^2.0@beta",
+        "drupal/field_group": "^3.2",
+        "drupal/flexslider": "^2.0",
+        "drupal/geocoder": "^3.20",
+        "drupal/geocoder_ajax_prepopulate": "^2.0",
+        "drupal/geofield_map": "^2.70",
+        "drupal/imce": "^2.4",
+        "drupal/jquery_ui_accordion": "^1.1",
+        "drupal/jquery_ui_draggable": "^1.2",
+        "drupal/jquery_ui_droppable": "^1.2",
+        "drupal/leaflet": "^2.1",
+        "drupal/libraries": "^3.0@beta",
+        "drupal/mailsystem": "^4.3",
+        "drupal/metatag": "^1.16",
+        "drupal/page_manager": "4.x-dev",
+        "drupal/panelizer": "^4.4",
+        "drupal/panels": "4.x-dev",
+        "drupal/pathauto": "^1.8",
+        "drupal/redirect": "^1.6",
+        "drupal/responsive_favicons": "^1.6",
+        "drupal/rules": "3.x-dev",
+        "drupal/schema_metatag": "^2.2",
+        "drupal/slick": "^2.3",
+        "drupal/slick_views": "^2.4",
+        "drupal/styles_api": "^1.1",
+        "drupal/tamper": "^1.0@alpha",
+        "drupal/term_condition": "^2.0",
+        "drupal/term_reference_tree": "1.x-dev",
+        "drupal/token": "^1.9",
+        "drupal/transliterate_filenames": "^1.5",
+        "drupal/views_bootstrap": "^4.3",
+        "drupal/views_infinite_scroll": "^1.8",
+        "drupal/views_slideshow": "^4.8",
+        "drupal/webform": "^6.0",
+        "drupal/youtube": "^1.2",
+        "geocoder-php/google-maps-provider": "^4.6",
+        "highlightjs/highlightjs": "^9.7",
+        "wikimedia/composer-merge-plugin": "^2.0"
+    },
+    "conflict": {
+        "drupal/drupal": "*"
+    },
+    "minimum-stability": "alpha",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+    "merge-plugin": {
+            "include": [
+                "web/modules/contrib/webform/composer.libraries.json"
+            ]
+        },
+    "enable-patching": true,
+        "patches": {
+            "drupal/address": {
+                "2882589: Feeds Address": "https://www.drupal.org/files/issues/2019-04-19/address-feeds-address-target-2882589-23.patch"
+        },
+            "drupal/page_manager": {
+                "2858877: Allow for block visibility rules": "https://www.drupal.org/files/issues/2020-06-24/page_manager-block_visibility_conditions-2858877-66.patch"
+        },
+            "drupal/panels": {
+                "2769099: Block visibility conditions": "https://www.drupal.org/files/issues/2020-07-13/panels-block_visibility_conditions-2769099-43.patch"
+        },
+            "drupal/block_visibility_groups": {
+                "2749583: Create Proper Menu": "https://www.drupal.org/files/issues/2021-04-26/2749583-3-create-admin-menu-link.patch",
+                "2749583: Remove Toolbar": "https://www.drupal.org/files/issues/2021-04-26/2749583-3-remove-hook-toolbar.patch"
+        }
+        },
+        "drupal-scaffold": {
+            "locations": {
+                "web-root": "web/"
+            }
+        },
+        "installer-paths": {
+            "web/core": [
+                "type:drupal-core"
+            ],
+            "web/libraries/{$name}": [
+                "type:drupal-library"
+            ],
+            "web/modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "web/profiles/contrib/{$name}": [
+                "type:drupal-profile"
+            ],
+            "web/themes/contrib/{$name}": [
+                "type:drupal-theme"
+            ],
+            "drush/Commands/contrib/{$name}": [
+                "type:drupal-drush"
+            ],
+            "web/modules/custom/{$name}": [
+                "type:drupal-custom-module"
+            ],
+            "web/profiles/custom/{$name}": [
+                "type:drupal-custom-profile"
+            ],
+            "web/themes/custom/{$name}": [
+                "type:drupal-custom-theme"
+            ]
+        },
+        "drupal-core-project-message": {
+            "include-keys": [
+                "homepage",
+                "support"
+            ],
+            "post-create-project-cmd-message": [
+                "<bg=blue;fg=white>                                                         </>",
+                "<bg=blue;fg=white>  Congratulations, you’ve installed the Drupal codebase  </>",
+                "<bg=blue;fg=white>  from the drupal/recommended-project template!          </>",
+                "<bg=blue;fg=white>                                                         </>",
+                "",
+                "<bg=yellow;fg=black>Next steps</>:",
+                "  * Install the site: https://www.drupal.org/docs/8/install",
+                "  * Read the user guide: https://www.drupal.org/docs/user_guide/en/index.html",
+                "  * Get support: https://www.drupal.org/support",
+                "  * Get involved with the Drupal community:",
+                "      https://www.drupal.org/getting-involved",
+                "  * Remove the plugin that prints this message:",
+                "      composer remove drupal/core-project-message"
+            ]
+        }
+    }
+}

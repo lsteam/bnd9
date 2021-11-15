@@ -1,0 +1,268 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+
+body {
+font-family: 'Open Sans', sans-serif;
+}
+
+a,a:link,a.link,a.visited {
+text-decoration: none;
+}
+
+a:hover,a.hover {
+text-decoration: underline;
+}
+
+.maintenance-page #header div.section, .maintenance-page #main {
+width: 100% !important;
+}
+
+.breadbox {
+background: #008067;
+/* box-shadow: 0px 2px 10px 0px rgba(130, 130, 130, .1); */
+}
+
+#breadcrumb {
+width: 100%;
+padding-right: 10px;
+padding-left: 10px;
+margin-right: auto;
+margin-left: auto;
+}
+
+ol.breadcrumb {
+margin-bottom: 0;
+}
+
+ol.breadcrumb a {
+color: #fff;
+}
+
+ol.breadcrumb li:first-child a::before {
+display: none !important;
+}
+
+.breadcrumb-item + .breadcrumb-item {
+padding-left: 5px;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+color: #fff;
+content: var(--bs-breadcrumb-divider, ">");
+padding-right: 5px;
+padding-top: 8px;
+font-size: .85em;
+line-height: .85em;
+}
+
+button.webform-button--submit.form-submit::before {
+display: none;
+}
+
+#main.container, #main.container-fluid, #main.container-lg, #main.container-md, #main.container-sm, #main.container-xl,
+#header .container, #header .container-fluid, #header .container-lg, #header .container-md, #header .container-sm, #header .container-xl {
+width: 100%;
+padding-right: 0 !important;
+padding-left: 0 !important;
+margin-right: auto;
+margin-left: auto;
+}
+
+.col {
+/* padding: 0; */
+}
+
+.row {
+margin: 0;
+--bs-gutter-x: 1rem;
+}
+
+#main-wrapper #content.col {
+padding-bottom: 1rem;
+}
+
+.navbar {
+padding: 10px;
+}
+
+.node__content {
+padding: 0 10px;
+}
+
+.node .field--type-image {
+margin: 0;
+}
+
+article.profile {
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.block-views {
+margin: 0 0 10px 0;
+}
+
+.node--type-community-college #block-bnd9-page-title {
+display: none;
+}
+
+h1 {
+color: #284560;
+margin: .5rem;
+font-size: 1.6rem !important;
+text-shadow: 0 2px 2px rgba(0,0,0,.2);
+}
+
+h3 {
+border-bottom: 1px dotted #ccc;
+}
+
+.field__label,
+.field--type-entity-reference .field__label {
+font-weight: bold;
+}
+
+.field--label-above,
+.field--type-entity-reference {
+margin: 0 0 1.2em;
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
+
+nav.menu--main {
+margin-left: 0 !important;
+}
+
+#block-mainnavigation .navbar-nav {
+margin-top: 6px;
+}
+
+#block-mainnavigation li {
+background: #fff;
+padding: 0 10px;
+margin: 2px 0;
+border-radius: 3px;
+}
+
+#block-mainnavigation li a,
+#block-mainnavigation li .nav-link {
+color: #284560;
+}
+
+.navbar-light .navbar-toggler {
+background: #fff;
+}
+
+footer {
+}
+
+/* location and maps */
+
+.field--name-field-address p,
+.views-field-field-address p {
+margin-bottom: 0;
+}
+
+.field--name-field-address .country,
+.views-field-field-address .country {
+display: none;
+}
+
+.field--name-field-address {
+margin-bottom: 20px;
+}
+
+/* location and maps end */
+/* remote locations */
+
+.view-id-colleges.view-display-id-block_1 .views-row {
+padding: 0;
+border-bottom: 1px dotted #ccc;
+}
+
+.view-id-colleges.view-display-id-block_1 .views-row-last {
+border: 0;
+}
+
+.views-field-title h5 {
+margin-top: 10px;
+}
+
+.views-field-field-phone {
+margin-bottom: 10px;
+}
+
+/* remote locations end */
+
+@media all and (min-width:600px) {
+
+body.maintenance-page {
+background-color: #e0e0d8 !important;
+}
+
+.maintenance-page #page-wrapper {
+border-radius: 5px;
+box-shadow: 0px 2px 10px 0px rgb(130 130 130 / 40%);
+}
+
+.maintenance-page #page {
+text-align: center;
+}
+
+}
+
+@media all and (min-width:768px) {
+
+.maintenance-page #main-wrapper #content {
+box-shadow: none;
+}
+
+.maintenance-page h1 {
+text-shadow: none;
+margin: 20px 0 0 0;
+}
+
+.maintenance-page #site-name {
+font-size: 1.6rem;
+}
+
+.node--type-community-college #block-bnd9-page-title {
+display: block;
+}
+
+#block-mainnavigation li {
+background: #fff;
+margin-right: 10px;
+padding: 0;
+}
+
+#block-mainnavigation li:nth-last-child(1) {
+margin-right: 0;
+}
+
+#block-mainnavigation li a:hover,
+#block-mainnavigation li a.hover {
+background: #eee;
+border-radius: 3px;
+}
+
+#breadcrumb {
+padding-right: 0;
+padding-left: 0;
+}
+
+#main-wrapper #content {
+background: #fff;
+box-shadow: 0px 2px 10px 0px rgba(130, 130, 130, .4);
+}
+
+nav #block-brown-main-menu li {
+padding-left: 0;
+}
+
+}
