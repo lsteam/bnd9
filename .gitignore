@@ -3,10 +3,12 @@
 /vendor/
 /web/core/
 /web/modules/contrib/
+/web/modules/custom/
 /web/themes/contrib/bootstrap
 /web/themes/contrib/bootstrap_barrio
 /web/profiles/contrib/
 /web/libraries/
+/web/themes/contrib/bnd9/libraries
 
 # Ignore sensitive information
 /web/sites/*/settings.php

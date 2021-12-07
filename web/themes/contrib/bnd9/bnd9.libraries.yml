@@ -9,10 +9,10 @@ global-styling:
 bootstrap:
   js:
     /core/assets/vendor/popperjs/popper.min.js: {}
-    /libraries/bootstrap/dist/js/bootstrap.min.js: {}
+    /themes/contrib/bnd9/libraries/twbs/bootstrap/dist/js/bootstrap.min.js: {}
   css:
     component:
-      /libraries/bootstrap/dist/css/bootstrap.min.css: {}
+      /themes/contrib/bnd9/libraries/twbs/bootstrap/dist/css/bootstrap.css: { weight: -48 }
 bootstrap_cdn:
   js:
     //cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js: {}

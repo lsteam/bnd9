@@ -265,4 +265,72 @@ nav #block-brown-main-menu li {
 padding-left: 0;
 }
 
+/* Stem App */
+
+.col-md-6 {
+width: 100%;
+}
+
+.node-stem-outreach-application-form #edit-group-post-visit-data,
+.node-stem-outreach-application-form #edit-group-general-administration,
+.node-stem-outreach-application-form #edit-field-other-0-format {
+display: none;
+}
+
+.node-stem-outreach-application-form .field--name-field-actual,
+.node-stem-outreach-application-form .field--name-field-number-integer {
+display: inline-block;
+vertical-align: top;
+width: 25%;
+}
+
+.node-stem-outreach-application-form .field--name-field-actual input,
+.node-stem-outreach-application-form .field--name-field-number-integer input {
+width: 70px;
+}
+
+.node-stem-outreach-application-form .field--name-title {
+width: 50%;
+}
+
+.node-stem-outreach-application-form .field--name-field-event-type,
+.node-stem-outreach-application-form .field--name-field-digital-asset {
+display: inline-block;
+vertical-align: top;
+width: 49.7%;
+}
+
+.node-stem-outreach-application-form .field--name-field-first-name,
+.node-stem-outreach-application-form .field--name-field-last-name,
+.node-stem-outreach-application-form .field--name-field-title,
+.node-stem-outreach-application-form .field--name-field-institution-type,
+.node-stem-outreach-application-form .field--name-field-text-plain-other,
+.node-stem-outreach-application-form .field--name-field-select-content,
+.node-stem-outreach-application-form .field--name-field-address .form-type-textfield,
+.node-stem-outreach-application-form .field--name-field-address .form-type-select {
+display: inline-block;
+vertical-align: top;
+width: 33%;
+}
+
+.node-stem-outreach-application-form .field--name-field-address fieldset.form-item-field-address-0-address-address-line1,
+.node-stem-outreach-application-form .field--name-field-phone,
+.node-stem-outreach-application-form .field--name-field-email {
+display: inline-block;
+vertical-align: top;
+width: 25%;
+}
+
+.node-stem-outreach-application-form .field--name-field-address div.address-container-inline {
+display: inline-block;
+vertical-align: top;
+width: 74.5%;
+}
+
+.node-stem-outreach-application-form .field--name-field-age-group #edit-field-age-group .radio {
+display: inline-block;
+vertical-align: top;
+margin-right: 10px;
+}
+
 }
