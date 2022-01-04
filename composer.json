@@ -92,7 +92,7 @@
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.7",
         "d3/d3": "^3.5",
-        "drupal/address": "^1.9",
+        "drupal/address": "1.x-dev",
         "drupal/address_map_link": "^1.2",
         "drupal/admin_toolbar": "^3.0",
         "drupal/advanced_scroll_top": "1.x-dev",
@@ -116,7 +116,6 @@
         "drupal/core-recommended": "^9.2",
         "drupal/ctools": "^3.7",
         "drupal/date_popup_timepicker": "1.x-dev",
-        "drupal/devel": "^4.1",
         "drupal/ds": "^3.13",
         "drupal/easy_breadcrumb": "^2.0",
         "drupal/extlink": "^1.6",
@@ -184,7 +183,8 @@
     "enable-patching": true,
         "patches": {
             "drupal/address": {
-                "2882589: Feeds Address": "https://www.drupal.org/files/issues/2019-04-19/address-feeds-address-target-2882589-23.patch"
+                "2882589: Feeds Address": "https://www.drupal.org/files/issues/2019-04-19/address-feeds-address-target-2882589-23.patch",
+                "2857593-15-d8: Add a widget setting to select fieldset or container as the address wrapper": "https://www.drupal.org/files/issues/2020-05-21/address-container-wrapper2857593-15-D8.patch"
         },
             "drupal/page_manager": {
                 "2858877: Allow for block visibility rules": "https://www.drupal.org/files/issues/2020-06-24/page_manager-block_visibility_conditions-2858877-66.patch"
