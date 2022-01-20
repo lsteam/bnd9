@@ -1,0 +1,150 @@
+.ck-border-top {
+border-top: 1px solid #ccc;
+}
+
+.ck-border-right {
+border-right: 1px solid #ccc;
+}
+
+.ck-border-bottom {
+border-bottom: 1px solid #ccc;
+}
+
+.ck-border-left {
+border-left: 1px solid #ccc;
+}
+
+.ck-blue-back-header {
+background: #284560;
+color: #fff;
+font-size: 1.2em;
+padding: 5px 10px;
+margin-top: 0;
+border: none;
+margin-bottom: 20px;
+}
+
+.ck-green-back-header {
+background: #008067;
+color: #fff;
+font-size: 1.2em;
+padding: 5px 10px;
+margin-top: 0;
+border: none;
+margin-bottom: 20px;
+}
+
+.ck-green-back-header-no-bottom-margin {
+background: #008067;
+color: #fff;
+font-size: 1.2em;
+padding: 5px 10px;
+margin-top: 0;
+border: none;
+margin-bottom: 0;
+}
+
+.ck-green-content-border {
+padding: 10px;
+margin-top: 0;
+border: 1px solid #008067;
+margin-bottom: 20px;
+}
+
+.ck-button-green a,
+.ck-button-green a:link,
+.ck-button-green a:visited {
+background: #008067;
+color: #fff;
+text-transform: uppercase;
+font-weight: bold;
+padding: 5px 20px;
+}
+
+.ck-button-green span.ext {
+display: none;
+}
+
+.ck-image-200 img {
+max-width: 200px;
+height: auto;
+}
+
+.ck-image-300 img {
+max-width: 300px;
+height: auto;
+}
+
+.ck-image-400 img {
+max-width: 400px;
+height: auto;
+}
+
+.ck-image-500 img {
+max-width: 500px;
+height: auto;
+}
+
+.ck-image-600 img {
+max-width: 600px;
+height: auto;
+}
+
+.ck-image-max-100 img {
+max-width: 100%;
+height: auto;
+}
+
+.ck-green-back-header-no-bottom-margin p,
+.ck-blue-back-header p,
+.ck-green-back-header p,
+.ck-button-green p,
+.ck-image-200 p,
+.ck-image-300 p,
+.ck-image-400 p,
+.ck-image-500 p,
+.ck-image-600 p,
+.ck-image-max-100 p {
+margin: 0;
+}
+
+table.ck-blank-table,
+.ck-blank-table tbody,
+.ck-blank-table tbody tr {
+border: none;
+}
+
+.ck-blank-table td,
+.ck-blank-table th {
+padding: 0;
+background: transparent;
+}
+
+.ck-blank-table tr,
+.ck-blank-table tr.info,
+.ck-blank-table tr.even,
+.ck-blank-table tr:nth-child(2n+2) {
+background: transparent;
+}
+
+table.ck-alternating-table,
+.ck-alternating-table tbody,
+.ck-alternating-table tbody tr {
+border: none;
+}
+
+.ck-alternating-table td,
+.ck-alternating-table th {
+padding: 0;
+background: transparent;
+}
+
+.ck-alternating-table tr {
+background: transparent;
+}
+
+.ck-alternating-table tr.info,
+.ck-alternating-table tr.odd,
+.ck-alternating-table tr:nth-child(odd) {
+background: rgba(0, 0, 0, 0.063);
+}

@@ -2,7 +2,7 @@
  * @file
  * Subtheme specific CSS.
  */
-
+ 
 body {
 font-family: 'Open Sans', sans-serif;
 }
@@ -158,6 +158,16 @@ color: #284560;
 background: #fff;
 }
 
+table tr th {
+color: #284560;
+}
+
+table tr th a,
+table tr th a:hover,
+table tr th a:focus {
+color: #0071b3;
+}
+
 footer {
 }
 
@@ -173,7 +183,9 @@ margin-bottom: 0;
 display: none;
 }
 
-.field--name-field-address {
+.field--name-field-address,
+.field--name-field-links,
+.field--name-field-website {
 margin-bottom: 20px;
 }
 
@@ -197,7 +209,190 @@ margin-top: 10px;
 margin-bottom: 10px;
 }
 
+/* Block Styles */
+
+.block-views {
+margin-bottom: 20px;
+}
+
+.views-exposed-form.block-views {
+padding-right: 0.6rem;
+padding-left: 0.6rem;
+margin-bottom: 0;
+}
+
+.node--type-company-org-profile .field--name-field-1280x720 img,
+.block-block-contentcdda399f-39fa-40f6-ba92-0b82dddb07f9 .field--name-field-media-image img {
+-webkit-box-shadow: 4px 6px 7px -5px rgba(0,0,0,0.25);
+-moz-box-shadow: 4px 6px 7px -5px rgba(0,0,0,0.25);
+box-shadow: 4px 6px 7px -5px rgba(0,0,0,0.25);
+border: 1px solid rgba(0,0,0,0.1);
+}
+
+.block-entity-fieldnodefield-title,
+.block .field__label {
+font-size: 1.4em;
+border-bottom: 1px dotted #ccc;
+margin-bottom: 10px;
+font-weight: normal;
+}
+
+.block-views-blockcompany-org-block-2 .views-row {
+padding: 0;
+}
+
 /* remote locations end */
+
+.ck-border-top {
+border-top: 1px solid #ccc;
+}
+
+.ck-border-right {
+border-right: 1px solid #ccc;
+}
+
+.ck-border-bottom {
+border-bottom: 1px solid #ccc;
+}
+
+.ck-border-left {
+border-left: 1px solid #ccc;
+}
+
+.ck-blue-back-header {
+background: #284560;
+color: #fff;
+font-size: 1.2em;
+padding: 5px 10px;
+margin-top: 0;
+border: none;
+margin-bottom: 20px;
+}
+
+.ck-green-back-header {
+background: #008067;
+color: #fff;
+font-size: 1.2em;
+padding: 5px 10px;
+margin-top: 0;
+border: none;
+margin-bottom: 20px;
+}
+
+.ck-green-back-header-no-bottom-margin {
+background: #008067;
+color: #fff;
+font-size: 1.2em;
+padding: 5px 10px;
+margin-top: 0;
+border: none;
+margin-bottom: 0;
+}
+
+.ck-green-content-border {
+padding: 10px;
+margin-top: 0;
+border: 1px solid #008067;
+margin-bottom: 20px;
+}
+
+.ck-button-green a,
+.ck-button-green a:link,
+.ck-button-green a:visited {
+background: #008067;
+color: #fff;
+text-transform: uppercase;
+font-weight: bold;
+padding: 5px 20px;
+}
+
+.ck-button-green span.ext {
+display: none;
+}
+
+.ck-image-200 img {
+max-width: 200px;
+height: auto;
+}
+
+.ck-image-300 img {
+max-width: 300px;
+height: auto;
+}
+
+.ck-image-400 img {
+max-width: 400px;
+height: auto;
+}
+
+.ck-image-500 img {
+max-width: 500px;
+height: auto;
+}
+
+.ck-image-600 img {
+max-width: 600px;
+height: auto;
+}
+
+.ck-image-max-100 img {
+max-width: 100%;
+height: auto;
+}
+
+.ck-green-back-header-no-bottom-margin p,
+.ck-blue-back-header p,
+.ck-green-back-header p,
+.ck-button-green p,
+.ck-image-200 p,
+.ck-image-300 p,
+.ck-image-400 p,
+.ck-image-500 p,
+.ck-image-600 p,
+.ck-image-max-100 p {
+margin: 0;
+}
+
+table.ck-blank-table,
+.ck-blank-table tbody,
+.ck-blank-table tbody tr {
+border: none;
+}
+
+.ck-blank-table td,
+.ck-blank-table th {
+padding: 0;
+background: transparent;
+}
+
+.ck-blank-table tr,
+.ck-blank-table tr.info,
+.ck-blank-table tr.even,
+.ck-blank-table tr:nth-child(2n+2) {
+background: transparent;
+}
+
+table.ck-alternating-table,
+.ck-alternating-table tbody,
+.ck-alternating-table tbody tr {
+border: none;
+}
+
+.ck-alternating-table td,
+.ck-alternating-table th {
+padding: 0;
+background: transparent;
+}
+
+.ck-alternating-table tr {
+background: transparent;
+}
+
+.ck-alternating-table tr.info,
+.ck-alternating-table tr.odd,
+.ck-alternating-table tr:nth-child(odd) {
+background: rgba(0, 0, 0, 0.063);
+}
 
 @media all and (min-width:600px) {
 
